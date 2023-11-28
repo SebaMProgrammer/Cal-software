@@ -1,0 +1,92 @@
+{
+    "usuario": {
+        "123456789-0": {
+            "nombre": "ale",
+            "apellido": "arce",
+            "rut": "123456789-0",
+            "esProfesor": false,
+            "asignaturas_inscrita": [
+                "etica",
+                "estadistica",
+                "ingles"
+            ],
+            "correo": "alecito@duoc.cl",
+            "contrasena": "1234"
+        },
+        "223456789-0": {
+            "nombre": "alecita",
+            "apellido": "arcenia",
+            "rut": "223456789-0",
+            "esProfesor": false,
+            "asignaturas_inscrita": [
+                "etica",
+                "estadistica",
+                "ingles"
+            ],
+            "correo": "alecita@duoc.cl",
+            "contrasena": "1234"
+        },
+        "323456789-0": {
+            "nombre": "jorge",
+            "apellido": "soto",
+            "rut": "323456789-0",
+            "esProfesor": true,
+            "asignaturas_inscrita": "vacio",
+            "asignaturas_a_cargo": [
+                "py2023-1"
+            ],
+            "correo": "profejorge@duoc.cl",
+            "contrasena": "1234"
+        }
+    },
+    "asignatura": {
+        "py2023-1": {
+            "nombre": "etica",
+            "codigo": "py2023-1",
+            "alumnos_inscritos": [
+                "123456789-0",
+                "223456789-0"
+            ],
+            "profesor": "323456789-0"
+        },
+        "py2040-2": {
+            "nombre": "estadistica",
+            "codigo": "py2040-2",
+            "alumnos_inscritos": [
+                "123456789-0",
+                "223456789-0"
+            ],
+            "profesor": "323456789-0"
+        },
+        "py5050-5": {
+            "nombre": "ingles",
+            "codigo": "py5050-5",
+            "alumnos_inscritos": [
+                "123456789-0",
+                "223456789-0"
+            ],
+            "profesor": "323456789-0"
+        }
+    },
+    "asistencia": {
+        "abcdefg": {
+            "fecha": 1393994499,
+            "alumnos_presentes": [
+                "223456789-0"
+            ],
+            "nombre_asignatura": "etica",
+            "codigo_asignatura": "py2023-1",
+            "id_asistencia": "abcdefg"
+        },
+        "hijkl": {
+            "fecha": 1543534534,
+            "alumnos_presentes": [
+                "223456789-0",
+                "123456789-0"
+            ],
+            "nombre_asignatura": "ingles",
+            "codigo_asignatura": "py5050-5",
+            "id_asistencia": "hijkl"
+        }
+    }
+}
